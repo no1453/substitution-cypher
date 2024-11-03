@@ -7,6 +7,6 @@ When decoding, the first line input must be the cypher string, already presented
 
 best used with file redirection and piping of the input and output, i.e.
 
-type filetocode.txt | coder > codedfile.txt
+type filetocode.txt | coder.py > codedfile.txt
 
-type codedfile,txt | decoder > decodedfile.txt
+type codedfile,txt | decoder.py > decodedfile.txt
