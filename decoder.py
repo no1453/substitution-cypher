@@ -30,7 +30,7 @@ def get_code_value(char):
 code_alphabet = input()
 #code_alphabet = code_alphabet[:-1]
 if len(code_alphabet) != 26:
-	print("Raising Hell: code len is ", len(code_alphabet))
+	print("Raising error: code length is ", len(code_alphabet))
 	exit(-1)
 
 l_alphabet="abcdefghijklmnopqrstuvwxyz"
