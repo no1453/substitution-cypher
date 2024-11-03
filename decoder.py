@@ -1,4 +1,4 @@
-# coder
+# decoder
 import random
 
 def get_code_value(char):
