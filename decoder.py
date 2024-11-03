@@ -40,16 +40,12 @@ for letter in l_alphabet:
 	code_dict[code_alphabet[i]] = letter
 	i = i + 1
 
-#print(code_dict)
-
 this_code_alphabet = ''
 i = 0
 for letter in l_alphabet:
 	this_code_alphabet = this_code_alphabet + code_dict.get(letter)
 	i = i + 1
 
-#print("IAlphabet: [", code_alphabet, "]")
-#print("CAlphabet: [", this_code_alphabet, "]")
 l_alphabet = this_code_alphabet
 u_alphabet = l_alphabet.upper()
 
